@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="32.491 ns"></ZoomStartTime>
+      <ZoomEndTime time="81.392 ns"></ZoomEndTime>
+      <Cursor1Time time="72.191 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="112"></NameColumnWidth>
+      <ValueColumnWidth column_width="227"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="8" />
+   <wvobject fp_name="/tb/entry" type="array">
+      <obj_property name="ElementShortName">entry[15:0]</obj_property>
+      <obj_property name="ObjectShortName">entry[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/flags" type="array">
+      <obj_property name="ElementShortName">flags[4:0]</obj_property>
+      <obj_property name="ObjectShortName">flags[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/result" type="array">
+      <obj_property name="ElementShortName">result[15:0]</obj_property>
+      <obj_property name="ObjectShortName">result[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/flags" type="array">
+      <obj_property name="ElementShortName">flags[4:0]</obj_property>
+      <obj_property name="ObjectShortName">flags[4:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/current_fsm_state" type="array">
+      <obj_property name="ElementShortName">current_fsm_state[3:0]</obj_property>
+      <obj_property name="ObjectShortName">current_fsm_state[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/top1/dp/partResult" type="array">
+      <obj_property name="ElementShortName">partResult[1:0]</obj_property>
+      <obj_property name="ObjectShortName">partResult[1:0]</obj_property>
+   </wvobject>
+</wave_config>

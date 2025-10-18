@@ -1,0 +1,65 @@
+Time resolution is 1 ps
+-------------------------------------
+[10000 ns] Datapath @ State S0
+  Opcode Latched: 000
+  FPU Output: part_a=0000, part_b=0000
+  Reg5 Output (Latched from prev cycle): part_ab=0000, part_bb=0000
+  Reg6 Output (Latched from prev cycle): part_bc=0000
+  Mux Control: isResult=0, partResult=11
+  Mux Result (Final Output): result=0000
+  Flags Latched: 00000
+-------------------------------------
+[20000 ns] Datapath @ State S1
+  Opcode Latched: 000
+  FPU Output: part_a=0000, part_b=0000
+  Reg5 Output (Latched from prev cycle): part_ab=0000, part_bb=0000
+  Reg6 Output (Latched from prev cycle): part_bc=0000
+  Mux Control: isResult=0, partResult=11
+  Mux Result (Final Output): result=0000
+  Flags Latched: 00000
+-------------------------------------
+[30000 ns] Datapath @ State S2
+  Opcode Latched: 000
+  FPU Output: part_a=0000, part_b=4000
+  Reg5 Output (Latched from prev cycle): part_ab=0000, part_bb=0000
+  Reg6 Output (Latched from prev cycle): part_bc=0000
+  Mux Control: isResult=0, partResult=11
+  Mux Result (Final Output): result=0000
+  Flags Latched: 00000
+-------------------------------------
+[40000 ns] Datapath @ State S3
+  Opcode Latched: 000
+  FPU Output: part_a=4000, part_b=0000
+  Reg5 Output (Latched from prev cycle): part_ab=0000, part_bb=4000
+  Reg6 Output (Latched from prev cycle): part_bc=0000
+  Mux Control: isResult=0, partResult=11
+  Mux Result (Final Output): result=0000
+  Flags Latched: 00000
+-------------------------------------
+[50000 ns] Datapath @ State S4
+  Opcode Latched: 000
+  FPU Output: part_a=0080, part_b=4000
+  Reg5 Output (Latched from prev cycle): part_ab=4000, part_bb=0000
+  Reg6 Output (Latched from prev cycle): part_bc=4000
+  Mux Control: isResult=0, partResult=11
+  Mux Result (Final Output): result=0000
+  Flags Latched: 00000
+-------------------------------------
+[60000 ns] Datapath @ State S5
+  Opcode Latched: 000
+  FPU Output: part_a=4080, part_b=0000
+  Reg5 Output (Latched from prev cycle): part_ab=0080, part_bb=4000
+  Reg6 Output (Latched from prev cycle): part_bc=0000
+  Mux Control: isResult=0, partResult=11
+  Mux Result (Final Output): result=0000
+  Flags Latched: 00000
+-------------------------------------
+[70000 ns] Datapath @ State S6
+  Opcode Latched: 000
+  FPU Output: part_a=0000, part_b=4000
+  Reg5 Output (Latched from prev cycle): part_ab=4080, part_bb=0000
+  Reg6 Output (Latched from prev cycle): part_bc=4000
+  Mux Control: isResult=1, partResult=00
+  Mux Result (Final Output): result=4080
+  Flags Latched: 00000
+$finish called at time : 75 ns : File "C:/Users/Asus/alu_mqm/alu_mqm.srcs/sim_1/new/tb.v" Line 63
